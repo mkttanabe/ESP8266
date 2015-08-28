@@ -1,0 +1,21 @@
+AT command sample extension.
+
+ - Handle HTTPS request
+ - Verify server's certificate
+
+Usage:
+
+AT+GETTEST="hostname",[0|1],[0|1]
+
+ 1st arg: target hostname to send "GET /" request
+
+ 2nd arg: 0 -> send HTTP request to port 80
+          1 -> send HTTPS request to port 443
+
+ * for HTTPS *
+ 3rd arg: 0 -> disable server certificate verification
+          1 -> enable server certificate verification
+
+
+See http://dsas.blog.klab.org/archives/52223926.html
+(Japanese only)
