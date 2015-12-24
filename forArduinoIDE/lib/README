@@ -1,7 +1,11 @@
 
-EspHttpsClient
+- EspHttpsClient
 
- Simple HTTP / HTTPS client for ESP8266. See EspHttpsClient.h for details.
+  Simple HTTP / HTTPS client for ESP8266. See EspHttpsClient.h for details.
+
+- pubnub-esp8266
+
+  Library for PubNub. The original Author is Kurt E. Clothier.
 
 
 2015 KLab Inc.
